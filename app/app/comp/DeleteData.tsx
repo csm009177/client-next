@@ -20,7 +20,7 @@ const DeleteData: React.FC = () => {
     <>
       {/* 데이터 배열을 매핑하여 각 데이터와 삭제 버튼을 출력 */}
       {datas.map((data, index) => (
-        <div key={index}>
+        <div key={index}>D:
           {/* 데이터 출력 */}
           <span>{data}</span>
           {/* 삭제 버튼 */}

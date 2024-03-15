@@ -26,7 +26,7 @@ const CreateData: React.FC = () => {
 
   // JSX를 반환하여 화면에 표시
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit}>C:
       {/* 입력 양식과 변경 핸들러 설정 */}
       <input
         type="text"

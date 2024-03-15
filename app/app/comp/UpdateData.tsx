@@ -30,7 +30,7 @@ const UpdateData: React.FC = () => {
     <>
       {/* 데이터 배열을 매핑하여 각 데이터와 수정 양식을 출력 */}
       {datas.map((data, index) => (
-        <div key={index}>
+        <div key={index}>U:
           {/* 수정 양식 */}
           <input
             type="text"

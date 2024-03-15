@@ -19,7 +19,7 @@ export default function Home() {
         <ReadData/>
         <UpdateData/>
         <DeleteData />
-        <AllCRUD/>
+        {/* <AllCRUD/> */}
       </DatasContext.Provider>
     </main>
   );
